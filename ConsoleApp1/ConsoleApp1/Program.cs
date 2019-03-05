@@ -17,6 +17,23 @@ namespace ConsoleApp1
             ConsoleKeyInfo key = Console.ReadKey();
 
             char ch = key.KeyChar;
+
+
+
+            switch (ch)
+
+            {
+
+                case '/':
+
+                    A = A / B;
+
+                    break;
+
+                default:
+
+                    break;
+            }
         }
     }
 }
