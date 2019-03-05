@@ -24,6 +24,23 @@ namespace ConsoleApp1
 
             {
 
+                case '+':
+
+                    A = A + B;
+
+                    break;
+
+                default:
+
+                    break;
+            }
+
+
+
+            switch (ch)
+
+            {
+
                 case '-':
 
                     A = A - B;
