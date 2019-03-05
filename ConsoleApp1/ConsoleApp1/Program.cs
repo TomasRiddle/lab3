@@ -23,32 +23,13 @@ namespace ConsoleApp1
             switch (ch)
 
             {
-
-                case '+':
-
-                    A = A + B;
-
-                    break;
-
-                default:
-
-                    break;
-            }
-
-
-
-            switch (ch)
-
-            {
-
                 case '-':
-
                     A = A - B;
-
                     break;
-
+                case '+':
+                    A = A + B;
+                    break;
                 default:
-
                     break;
             }
         }
