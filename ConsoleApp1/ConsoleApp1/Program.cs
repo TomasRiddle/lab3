@@ -29,9 +29,22 @@ namespace ConsoleApp1
 
                     A = A * B;
                     break;
-                default:
+               
+
+            
+
+
+ 
+
+                case '/':
+
+                    A = A / B;
+
                     break;
 
+                default:
+
+                    break;
             }
         }
     }
