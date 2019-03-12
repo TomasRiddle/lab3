@@ -20,8 +20,6 @@ namespace ConsoleApp1
 
 
 
-
-
             switch (ch)
             {
 
@@ -29,21 +27,12 @@ namespace ConsoleApp1
 
                     A = A * B;
                     break;
-               
-
-            
-
-
- 
-
                 case '/':
 
                     A = A / B;
 
                     break;
-
                 default:
-
                     break;
             }
         }
