@@ -32,6 +32,11 @@ namespace ConsoleApp1
                     A = A / B;
 
                     break;
+                case '-':
+
+                    A = A - B;
+
+                    break;
                 case '+':
 
                     A = A + B;
